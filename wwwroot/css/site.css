@@ -1,0 +1,39 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*caixa*/
+.col-md-4 {
+    background-color: #FFCA00;
+    border-radius: 10px;
+    padding: 2rem 2rem;
+    width: 500px;
+    margin: 0 auto;
+}
+
+input {
+    margin-top: 7px;
+}
+
+.btn {
+    background-color: #00B6B7;
+    border: none;
+    width: 435px;
+}
